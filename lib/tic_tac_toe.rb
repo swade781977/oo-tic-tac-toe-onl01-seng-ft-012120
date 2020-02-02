@@ -112,6 +112,7 @@ class TicTacToe
     end
   end
   def play 
+<<<<<<< HEAD
     until over?
       turn
     end
@@ -120,5 +121,17 @@ class TicTacToe
       elsif draw?
         puts "Cat's Game!"
       end
+=======
+    loop do
+      turn
+      if won? != nil
+        puts "Congratulations #{winner}!"
+        break
+      elsif draw? == true
+        puts "Cat's Game!"
+        break
+      end
+    end
+>>>>>>> c1c1ce70ee6a08d358fa7b50f2f42dac3edbc557
   end
 end

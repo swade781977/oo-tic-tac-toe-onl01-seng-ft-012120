@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 require_relative '../lib/tic_tac_toe.rb'
+<<<<<<< HEAD
 game = TicTacToe.new
+=======
+game.TicTacToe
+>>>>>>> c1c1ce70ee6a08d358fa7b50f2f42dac3edbc557
 game.play
